@@ -1,0 +1,40 @@
+.container{
+    width: 900px;
+    height: 80vh;
+    margin-top: 20px;
+}
+.grid{
+    display: grid;height: 600px;
+
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(10,1fr);
+    gap: 10px;
+}
+.griditem{
+    height: 80px;
+    background-color: yellow;
+}
+.item1{
+    grid-row: 1/6;
+    background-color: aquamarine;
+    height: auto;
+
+}
+.item2{
+    grid-row: 1/6;
+    background-color: aquamarine;
+    height: auto;
+}
+.item3{
+  grid-row:6/11;
+  background-color: brown;
+  height: auto;
+
+}
+.item4{
+    grid-row:6/11;
+  background-color: aquamarine;
+  height: auto;
+  
+
+}
